@@ -1,0 +1,26 @@
+/* Photos.css */
+
+.photo-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); /* 3 columns with equal width */
+    gap: 20px; /* Space between items */
+    padding: 20px; /* Padding around the grid */
+    background-color: #f0f0f0; /* Background color */
+}
+
+/* Optional: Style for individual photo wrappers */
+.photo-wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Ensure the image fits within its container */
+.photo {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+}
